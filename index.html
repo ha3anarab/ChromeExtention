@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Information</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Include an external JavaScript file -->
+    <script src="index.js"></script>
+</head>
+<body>
+<header>
+    <h1>Weather Information</h1>
+</header>
+
+<div id="weather-container">
+    <div id="location">
+        <h2 id="locationHeader">Location: Boston, Lincoln shire, United Kingdom</h2>
+        <p id="locationTime">Local Time: 2023-10-23 13:11 (Europe/London)</p>
+    </div>
+
+    <div id="weather-icon">
+        <img id="conditionImage" src="//cdn.weatherapi.com/weather/64x64/day/113.png" alt="Weather Icon">
+    </div>
+
+    <div id="weather-description">
+        <h3 id="conditionText">Current Weather: Sunny</h3>
+    </div>
+
+    <div id="weather-details">
+        <div>
+            <h4>Temperature</h4>
+            <p id="temperature">14°C (57.2°F)</p>
+        </div>
+        <div>
+            <h4>Wind</h4>
+            <p id="wind">9.4 mph (15.1 kph)</p>
+        </div>
+        <div>
+            <h4>Pressure</h4>
+            <p id="pressure">1009 mb (29.8 in)</p>
+        </div>
+    </div>
+
+    <div id="additional-details">
+        <h4>Additional Details</h4>
+        <p id="additional"></p>
+
+    </div>
+
+    <div>
+        <button id="myButton"> Click Me</button>
+        <script src="button.js"></script>
+    </div>
+</div>
+
+</body>
+</html>
